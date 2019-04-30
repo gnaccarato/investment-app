@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Investment | Make Money Online</title>
+</head>
+<body>
+
+    <h1>Allo World</h1>
+    <form onsubmit="calcFunc()" id="form">
+        <label for="principal">Principal</label>
+        <input type="number" id="principal"> <br>
+
+        <label for="annual_addition">Annual Addition</label>
+        <input type="number" id="annual_addition"> <br>
+
+        <label for="years_to_grow">Years to Grow</label>
+        <input type="number" id="years_to_grow"> <br>
+
+        <label for="interest_rate">Interest Rate</label> 
+        <input type="number" id="interest_rate"> <br>
+
+        <input type="submit"></input>
+    </form>
+    <h4 id="result">Result</h4>
+
+    <br>
+    <br>
+
+    <h1>Mortgage Calculator</h1>
+    <form onsubmit="mortgageFunc()" id="form_2">
+        <label for="loan">Loan</label>
+        <input type="number" id="loan"> <br>
+        
+        <label for="mortgage_rate">Mortgage Rate</label> 
+        <input type="number" id="mortgage_rate"> <br>
+
+        <label for="ammortization">Ammortization Length</label>
+        <input type="number" id="ammortization"> <br>        
+
+        <input type="submit"></input>
+    </form>
+    <h4 id="answer">Answer</h4>
+
+</body>
+<script src="main.js"></script>
+</html>
